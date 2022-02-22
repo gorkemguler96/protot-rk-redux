@@ -10,12 +10,13 @@ function App() {
     const {dark} = useSelector(state=>state.site)
 
   return (
-    <div className={dark ? 'dark' : 'light'}>
-        <Header/>
-        <Counter/>
-        <CounterActions/>
-        <Footer/>
-    </div>
+
+          <div className={dark ? 'dark' : 'light'}>
+              <Header/>
+              <Counter/>
+              <CounterActions/>
+              <Footer/>
+          </div>
   );
 }
 
